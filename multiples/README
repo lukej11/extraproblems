@@ -1,0 +1,25 @@
+Setup:
+Create a program called multiples.c
+
+Assignment:
+
+Ask the user to enter a number and a divisor. Then print out multiples less than or equal to that number.
+If the divisor doesn't evenly divide the number, print the error "The divisor doesn't divide the number
+evenly. Exiting.", and then exit (i.e. don't do anything else).
+
+Sample output:
+
+Please enter a number to divide: 24
+Please enter a number to divide by: 5
+The divisor doesn't divide the number evenly. Exiting.
+
+Please enter a number to divide: 24
+Please enter a number to divide by: 4
+All multiples of 4 <= 24 are:
+24
+20
+16
+12
+8
+4
+0

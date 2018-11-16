@@ -1,0 +1,28 @@
+Note! This assignment is in no way promoting gambling! If anything it should be persuasive argument
+against gambling.
+
+Create a lottery simulator that uses the ArrayContains() and GetRandomNumber() functions you created
+previously. Your program should do the following:
+
+- Draw the 6 winning numbers randomly. For our purposes, each number will be 0 through 19.
+    - Note! Although we usually call srand() with time(NULL), for verification purposes you should
+    just seed it with 0.
+- In a for loop, draw 100,000 random tickets
+- Keep track of how many tickets match exactly 0 numbers, exactly 1 number, exactly 2 numbers,
+    exactly 3 numbers, etc. up to the jackpot (all 6 numbers matching)
+- After you've checked all the tickets, output the following six lines (fill in with actual numbers):
+Matched exactly 0 number(s) 224 time(s) = 2.24%
+...
+etc.
+Matched all 6 numbers and hit the jackpot 0 time(s) = 0.00%
+- The lottery tickets can't have the same number twice within a single ticket. It's possible
+that more than one of the 100,000 tickets will have the same numbers, but you don't have to
+check for that.
+
+Questions to get you started on developing the pseudo-code:
+- How will you store the winning numbers?
+- How will you store the randomly generated tickets?
+- How will you make sure that a ticket doesn't have a duplicate number?
+- What new functions will you need to write?
+- How will you count up how many numbers in one of the 100,000 tickets match the winning ticket?
+- How will you keep track of how many tickets have 0 numbers matching, 1 matching, etc.?

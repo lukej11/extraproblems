@@ -1,0 +1,36 @@
+Setup:
+
+- Create a new folder called add_two_numbers that will contain your new program add_two_numbers.c.
+
+- In your terminal cd to that directory.
+
+- If you've forgotten how to do this, you should review that page on creating the "Hello, World" program,
+which is here: https://docs.cs50.net/2017/ap/problems/hello/hello.html
+
+Assignment:
+
+- You can use print_next_four.c as your starting point, but instead of showing the next four numbers,
+ask the user for two numbers and print the sum of the two numbers.
+
+Additional help: The print_next_four.c program only declares one variable, called num. In your program
+you'll need to declare two variables (e.g. num1 and num2), and then you should be able to add them,
+either by storing the value in a third variable, or by printing them to the screen as in the last command
+in print_next_four.c.
+
+Sample program output:
+
+$ ./add_two_numbers
+Please enter the first number: 1
+You entered 1
+Please enter the second number: 22
+You entered 22
+Total = 23
+
+Questions asked about the assignment:
+Q: "When I was about to submit it the add_two_numbers.c version was going to submit but not with the
+./add_two_number. Do you have any recommendations so that both are submitted?"
+A: You don't need to submit your compiled file, just the .c file. So you can go ahead and submit.
+
+Q: The third check failed, even though the numbers are being added correctly.
+A: The check50 script checks that your output matches exactly, including the text part. You should try
+editing your last line of output so that it says, "Total = ", etc.

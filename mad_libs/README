@@ -1,0 +1,22 @@
+The goal of the assignment is to ask the user for several pieces of info and write a message to the user
+that incorporates that info.
+
+Your program must do the following:
+- Ask the user for at least one string
+- Ask the user for at least one float
+- Ask the user for at least one char
+- Ask the user for at least one int
+- Your code must include at least one comment
+
+Feel free to be creative with what you ask the user and what you output!
+
+Sample program output:
+$ ./mad_libs
+Please enter your title: Mister
+Please enter your favorite letter: T
+Please enter your age: 44
+Please enter a dollar amount as a decimal number: 222.22
+Mister T went to 44 stores and bought $222.22 worth of gum.
+
+Note that due to the nature of this assignment, the check50 will only check that a file with the correct
+name has been uploaded and that it compiles. It will not check any of your actual output.

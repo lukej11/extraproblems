@@ -1,0 +1,50 @@
+Let's put all our knowledge together about functions into a program that will provide various
+geometric calculations to the user. Here's a sample interaction:
+
+Welcome to my geometry program!
+
+What would you like to calculate?
+1) Area
+2) Perimeter
+	1
+
+What shape would you like to calculate on?
+1) Rectangle
+2) Square
+3) Right triangle
+	3
+
+Enter the triangle's height: 3
+Enter the triangle's width: 4
+Enter the length of the triangle's hypotenuse: 0
+Invalid inputs. All sides must be > 0.
+
+Enter the triangle's height: 3
+Enter the triangle's width: 4
+Enter the length of the triangle's hypotenuse: 50
+Invalid inputs. The sum of two sides must be > the third side.
+
+Enter the triangle's height: 3
+Enter the triangle's width: 4
+Enter the length of the triangle's hypotenuse: 5
+The triangle's area is 6.0.
+
+Guidelines
+- Your program must be able to calculate the area of a right triangle as depicted above, as well as the area
+of a square and rectangle, and the perimeters of a right triangle, square, and rectangle.
+- You must validate both the menu inputs (one being the area or perimeter and the other being what shape),
+as well as the length/width/height values entered in by the user. For squares and rectangles you just
+have to validate that they're positive values.
+- Because of check50, the wording and punctuation of your outputs must match the examples exactly.
+- The only place where you should use a float is for the area of a triangle.
+- Tip: your program will be pretty long, so keep it organized! Comments around sections of your code
+will help you keep track of where things are.
+
+A couple more notes:
+- All the area/perimeter calculations must be done in their own functions.
+- When validating squares and rectangles you don't have to print any error messages, just for triangles.
+- For the triangle's area, you should output to 1 decimal place only.
+- We're using right triangles to keep the area calculation simpler, but since you can calculate the
+length of the third side from the other two you wouldn't actually need to ask the user for the hypotenuse.
+Let's keep it the way it was specified, and for now just assume that if the user is entering correct values
+the user enters a valid hypotenuse.
