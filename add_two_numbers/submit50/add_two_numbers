@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int add_two_numbers(int x, int y);
+
+int add_two_numbers(int x, int y)
+{
+    int sum = x + y;
+    return sum;
+}
+
+int main(void)
+{
+    printf("Please enter the first number: ");
+    int x = get_int();
+    printf("You entered %i\n", x);
+
+    printf("Please enter the second number: ");
+    int y = get_int();
+    printf("You entered %i\n", y);
+
+    int sum = add_two_numbers(x, y);
+
+    printf("Total = %i\n", sum);
+}
